@@ -15,13 +15,13 @@ $ui-black-transparent: var(--ui-black-transparent, $ui-black-transparent-default
 $text-primary: var(--text-primary, hsla(225, 15%, 40%, 1)); /* #575E75 */
 $text-primary-transparent: hsla(225, 15%, 40%, 0.75);
 
-$motion-primary: hsla(76, 70%, 91%, 1); /* uhh idk bro */
-$motion-tertiary: hsla(76, 62%, 71%, 1); /* idk bro */
+$motion-primary: hsla(55, 86%, 90%, 1); /* uhh idk bro */
+$motion-tertiary: hsla(55, 86%, 60%, 1); /* idk bro */
 $motion-transparent: hsla(194, 100%, 50%, 0.35); /* 35% transparent version of motion-primary */
 $motion-light-transparent: hsla(203, 100%, 39%, 0.15); /* 15% transparent version of motion-primary */
 
 /* opt-in theme overrides */
-$motion-primary-dark: #009CCC; /*top bar color when in dark mode*/
+$motion-primary-dark: #888800; /*top bar color when in dark mode*/
 $ui-primary-light: hsla(215, 100%, 95%, 1);
 $ui-secondary-light: hsla(215, 75%, 95%, 1);
 $ui-tertiary-light: hsla(215, 50%, 90%, 1);
