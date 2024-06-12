@@ -39,7 +39,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: build i guess
         run: |
-          sudo npm ci
+          sudo npm install
           sudo NODE_ENV=production npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
