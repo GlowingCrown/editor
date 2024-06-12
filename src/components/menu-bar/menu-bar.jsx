@@ -922,7 +922,7 @@ class MenuBar extends React.Component {
                     <div className={styles.menuBarItem}>
                         <a
                             className={styles.feedbackLink}
-                            href="https://penguinmod.com"
+                            href="https://glowingcrown.github.io"
                             rel="noopener noreferrer"
                             target="_blank"
                         >
@@ -931,6 +931,22 @@ class MenuBar extends React.Component {
                                     defaultMessage="Back to Home"
                                     description="Button to go back to the home page"
                                     id="pm.backToHomeButton"
+                                />
+                            </Button>
+                        </a>
+                    </div>
+                    <div className={styles.menuBarItem}>
+                        <a
+                            className={styles.feedbackLink}
+                            href="https://glowingcrown.github.io/discordinvite"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
+                            <Button className={styles.feedbackButton}>
+                                <FormattedMessage
+                                    defaultMessage="Join the GlowingCrown discord server (13+)"
+                                    description="Button to join the GlowingCrown discord server"
+                                    id="gc.communityserver"
                                 />
                             </Button>
                         </a>
